@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PokeFinder</string>
+    <string name="welcome_message">Bem-vindo ao PokeFinder!</string>
+    <string name="start_search">Iniciar pesquisa!</string>
+    <string name="new_journey_message">Uma nova jornada irá começar!</string>
+    <string name="search">Pesquisar</string>
+    <string name="favorites">Favoritos</string>
+    <string name="settings">Configs</string>
+    <string name="reset_confirm">Tem certeza de que deseja resetar todos os favoritos?</string>
+    <string name="reset">Resetar Favoritos</string>
+    <string name="configura_es">Configurações</string>
+    <string name="resetar_favoritos">Resetar Favoritos</string>
+    <string name="title">Title</string>
+    <string name="buscar_pok_mon">Buscar Pokémon</string>
+    <string name="tela_inicial">Tela Inicial</string>
+    <string name="encontre_seus_pok_mons_favoritos">Encontre seus Pokémons favoritos!</string>
+    <string name="pokefinder">PokeFinder</string>
+    <string name="nome_do_pok_mon">Nome do Pokémon</string>
+    <string name="favoritar">Favoritar</string>
+    <string name="no_favorites">Não há favoritos</string>
+    <string name="favoritos">Favoritos</string>
+</resources>

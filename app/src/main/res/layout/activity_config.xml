@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/background_color">
+
+
+    <ImageButton
+        android:id="@+id/btn_back_home"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/baseline_arrow_circle_left_24" />
+
+    <TextView
+        android:id="@+id/config_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/configura_es"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#3E4A89"
+        android:layout_gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="70dp"
+        />
+
+    <Button
+        android:id="@+id/reset_favorites_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resetar_favoritos"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/red_color"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="60dp"
+        />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#FFD700</item>
+        <item name="colorPrimaryDark">#FFD700</item>
+        <item name="android:statusBarColor">#FFD700</item>
+    </style>
+</resources>

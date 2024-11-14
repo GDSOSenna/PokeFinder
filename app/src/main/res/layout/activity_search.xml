@@ -1,0 +1,67 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <ImageView
+        android:id="@+id/pokeball_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/pokeball"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentTop="true"/>
+
+    <EditText
+        android:id="@+id/search_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/buscar_pok_mon"
+        android:inputType="text"
+        android:textColor="@color/secondary_color"
+        android:background="@drawable/edit_text_border"
+        android:padding="12dp"
+        android:layout_below="@id/pokeball_image"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/secondary_color"/>
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/red_color"
+        android:layout_below="@id/search_input"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/favorites_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_button"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/secondary_color"
+        android:gravity="center"
+        android:text="@string/favorites"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_back_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/favorites_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary_color"
+        android:gravity="center"
+        android:text="@string/tela_inicial"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

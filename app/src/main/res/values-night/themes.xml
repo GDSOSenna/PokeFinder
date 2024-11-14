@@ -1,0 +1,7 @@
+<resources>
+    <style name="Base.Theme.PokeFinder" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#FFD700</item>
+        <item name="colorPrimaryDark">#FFD700</item>
+        <item name="android:statusBarColor">#FFD700</item>
+    </style>
+</resources>
